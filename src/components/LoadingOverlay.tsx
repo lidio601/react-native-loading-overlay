@@ -13,7 +13,7 @@ type State = {
   loading: boolean;
 };
 
-class LoadingOverlay extends PureComponent<Props, State> {
+export class LoadingOverlay extends PureComponent<Props, State> {
   _animation: Animated.CompositeAnimation;
 
   state = {
